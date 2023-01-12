@@ -1,16 +1,181 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body{
+  display: flex;
+  align-items: center;
+}
+/*ABout*/
+#about{
+  background: linear-gradient(207deg, #D0B08B 0%, #fff 51%);  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+/*Faculty*/
+
+.title-section {
+  margin-bottom: 80px;
+}
+.title-section h2 {
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+  color: #923600;
+
+}
+.title-section span {
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: burlywood;
+  margin: 0 auto;
+}
+
+.Faculty1{
+  padding-top: 120px;
+}
+
+.rev:hover,.rec:active{
+  box-shadow: white;
+  color: white;
+}
+
+.rec.rec-arrow {
+  background-color: white;
+  color: blue;
+}
+
+.rec.rec-arrow:hover,.rec.rec-arrow:active {
+  color: blue, !important;
+
+}
+
+.rec-dot{
+  color: white;
+}
+.rec-dot_active{
+color: white!important;
+background-color: white!important;
+box-shadow: white!important;
+box-shadow: 0 0 1px 3px white!important;
+}
+.rec-pagination{
+  color: white;
+}
+
+.facultyFont{
+  font-family: Georgia, serif;
+font-size: 32px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #dfeff0;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-bottom: 20px;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 55%;
+  width: 100%;
+  background-color: #f28c51;
+  border-radius: 25px 25px 0 25px;
+}
+.cardBox{
+  padding: 5px;
+}
+.cardTitle{
+  font-size: medium!important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+}
+.faculty{
+  padding: 20px;
+  background-color: blanchedalmond;
+}
+.Cardclass{
+  display: flex;
+  flex-direction: column;
+  align-items: center!important;
+  padding: 10px 14px;
+  
+}
+.FacultyImage{
+  display: flex;
+  align-items: center!important;
+  height: 200px;
+  max-width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card-image{
+  display: flex;
+  align-items: center!important;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  display: flex;
+  align-items: center!important;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #faaf83;
+}
+.description{
+  white-space: nowrap;
+
+}
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+
+/*Gallary*/
+
+.gallary{
+  align-items: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-bottom: 10%;
+}
+#gallary1{
+  margin-top: 2%;
+  background: linear-gradient(25deg, #D0B08B 0%, #fff 51%);
+
+}
+
+.backgroundImg{
+  background-color: #dfeff0;
 }
 
 .App-header {
@@ -36,3 +201,5 @@
     transform: rotate(360deg);
   }
 }
+
+
